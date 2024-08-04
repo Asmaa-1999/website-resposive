@@ -1,0 +1,856 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.colormain
+{
+    background-color:#d82a4e;
+}
+/* ****************nav**************** */
+.container
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav
+{
+    width:45%;
+}
+.imglogo
+{
+    width: 10%;
+} 
+header img
+{
+    width: 100%;
+} 
+.listHeader
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.btn-header
+{
+    width:10%;
+}
+li{
+    list-style-type:none;
+}
+
+.listHeader li a{
+    color: white;
+    font-size:1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding:0 18px;
+}
+
+.listHeader li a:hover
+{
+    color: #d82a4e;
+}
+.colormain
+{
+    background-color:#d82a4e;
+}
+header button
+{
+    border: none;
+    color: white;
+    width:100%;
+    padding:6%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:1.1rem;
+}
+/********** form *****************/
+.form{
+    display: flex;
+    gap:2%;
+}
+.form input
+{
+    font-size: 1.1rem;
+    border: none;
+    background-color: white;
+    padding: 1.5%;
+    width: 35%;
+}
+.form button
+{
+    font-weight: 550;
+    color: white;
+    padding: 1%;
+    width: 18%;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 20%;
+    font-size:1.1rem;
+
+}
+.form input:focus
+{
+    outline-style: none;
+}
+/************ home ************/
+#home
+{
+background-image:url(./images/bg.jpg.webp) ;
+text-align: center;
+color: white;
+height: 100vh;
+background-size:cover;
+background-position:100% 100%;
+display: flex;
+flex-flow: column;
+justify-content:space-around ;
+}
+.contantHome
+{
+display: flex;
+flex-flow: column;
+align-items: center;
+justify-content: center;
+}
+.contantHome h1
+{
+    font-size: 3.5rem;
+    font-weight:500;
+}
+.contantHome p
+{
+    line-height: 2.2;
+    padding-bottom:5%;
+}
+/************* form home ********/
+.form-home{
+    width: 80%;
+    padding-top:10%;
+}
+.form-home input
+{
+    width: 40%;
+}
+.form-home button
+{
+    width: 18%;
+}
+.form-home input:focus
+{
+    outline-style: none;
+}
+/* ****************search************* */
+
+.search
+{
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0%;
+}
+.container-search
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 4%;
+    width:80%
+}
+.search h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.formSerch
+{
+    background-color: white;
+    padding:6%;
+}
+.btnSerch
+{
+color: white;
+}
+
+.formSerch input
+{
+    background-color: #edf4f6;
+}
+
+.search input:focus
+{
+    border-bottom: 1px solid #d82a4e;
+}
+/* ****************Categories************* */
+
+.categories
+{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:3% ;
+}
+.categories-contant
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.items-categories img{
+    width: 100%;
+}
+.items-categories
+{
+    padding: 3% 0%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 2% 2%;
+}
+.containerItem
+{
+    background-color: #edf4f6;
+}
+.itemCalegery
+{
+    width:32%;
+    margin-bottom: 2%;
+}
+.infoItem .info{
+    color: #d82a4e;
+
+}
+.hoverGatecory:hover
+{
+background-color: #d82a4e;
+}
+.hoverGatecory:hover p
+{
+    color:white;
+}
+.hoverGatecory:hover h3
+{
+    color:white;
+}
+
+/* **************featers *********** */
+.section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featers
+{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:5%;
+}
+.featers-contant
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.contant
+{
+    padding-bottom:5%;
+}
+.contant h2
+{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #474747;
+}
+.contant p
+{
+    color: #878787;
+    line-height: 2.2;
+}
+
+.list
+{
+    padding-bottom:5%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 2%;
+}
+.featersList li a
+{
+    color: #474747;
+    text-decoration: none;
+}
+
+.featersCalegery{
+    /* background-color: #105165; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.item
+{
+    width: 23%;
+    margin-bottom:2%;
+    background-color: #edf4f6;
+    position: relative;
+} 
+.img1
+{
+    background-image:url(images/1.jpg.webp);
+}
+.img2
+{
+    background-image:url(images/8.jpg.webp);
+}
+.img3
+{
+    background-image:url(images/6.jpg.webp);
+}
+.img4
+{
+    background-image:url(images/3.jpg.webp);
+}
+.img5
+{
+    background-image:url(images/1.jpg.webp);
+}
+.img6
+{
+    background-image:url(images/8.jpg.webp);
+}
+
+.img7
+{
+    background-image:url(images/3.jpg.webp);
+}
+.img8
+{
+    background-image:url(images/1.jpg.webp);
+}
+.img
+{
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.person img
+{
+width: 20%;
+padding: 3%;
+}
+.borderRadius
+{
+    border-radius:50% ;
+}
+.infoItem
+{
+    padding: 6%;
+    text-align: left;
+}
+.person
+{
+    border-top: 1px solid #d4dee1;
+    display: flex;
+    align-items: center;
+    padding: 1.5%;
+}
+span{
+    color: #d82a4e;
+    font-weight: 600;
+
+}
+.item p{
+    color: #878787;
+
+}
+.item .info{
+   padding-top: 5%;
+   color: #d82a4e;
+}
+
+.price
+{
+    color: white;
+    text-align: center;
+    width: 30%;
+    padding: 1%;
+    position:absolute;
+    top: 10%;
+    left: 10%;
+}
+.toggle-menu
+{
+    display: none;
+}
+
+/* ************** media ************* */
+
+@media screen and  (min-width: 0px)  and (max-width:600px){
+    .btn-header
+    {
+        display: none;
+    }
+    .toggle-menu
+    {
+        display: block;
+        background-color: rgb(255, 255, 255);
+        width:10%;
+        color: black;
+        cursor: pointer;
+
+    }
+    .nav.active
+    {
+        display: block;
+    }
+    /* header
+    {
+        grid-template-columns:1fr auto;  
+        justify-items: start;
+        padding: 0% 2%;
+
+    } */
+    .imglogo
+    {
+        width: 20%;
+    } 
+     .listHeader
+     {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+     }
+    .nav
+    {
+        position: absolute;
+        background-color: #ffffff;
+        top:15%; 
+        left: 0%;
+        right: 0%;
+        width: 90%;
+        margin:auto;
+        border: none;
+        display: none;
+    }
+    .nav ul li
+    {
+        border-bottom: #242424 solid 1px;
+        width: 100%;
+        text-align: start;
+        padding-bottom: 3%;
+    }
+    .nav ul li a
+    {
+        color: #242424;
+    }
+    .form-home
+    {
+      width: 95%;
+      padding: 3%;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .form-home input
+    {
+        width:100%;
+        margin-bottom:3%;
+        padding: 4%;
+    }
+    .form-home button
+    {
+        width:50%;
+        padding:4%;
+
+    }
+    .contantHome h1
+    {
+       font-size: 2.5rem;
+       font-weight: 500;
+    }
+    .featers
+    {
+        width: 90%;
+    }
+    .categories
+    {
+        width: 90%;
+    }
+    .categories .contant h2
+    {
+    font-size: 2.5rem;    }
+    .item
+    {
+        width:100%;
+    }
+    .itemCalegery
+    {
+        width:100%;
+    }
+
+    .list
+    {
+        flex-wrap: wrap;
+        gap: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-search
+    {
+        width: 90%;
+        padding:5%;
+    }
+    .formSerch
+    {
+        padding: 10% 10% 15%;
+        flex-direction: column;
+    }
+    .formSerch input
+    {
+        margin-bottom: 4%;
+        width:100%;
+        padding:7%;
+    }
+    .formSerch button
+    {
+        width:55%;
+        padding:7%;
+        font-size:1.1rem;
+    }
+}
+@media screen and (min-width: 601px) and (max-width:768px){
+    .btn-header
+    {
+        display: none;
+    }
+    .toggle-menu
+    {
+        display: block;
+        background-color: white;
+        width:8%;
+        color: black;
+        cursor: pointer;
+    }
+    .nav.active
+    {
+        display: block;
+    }
+    .imglogo
+    {
+        width: 20%;
+    } 
+    .listHeader
+    {
+       display: flex;
+       flex-direction: column;
+       align-items: start;
+    }
+   .nav
+   {
+       position: absolute;
+       background-color: #ffffff;
+       top:15%; 
+       left: 0%;
+       right: 0%;
+       width: 90%;
+       margin:auto;
+       border: none;
+       display: none;
+   }
+   .nav ul li
+   {
+       border-bottom: #242424 solid 1px;
+       width: 100%;
+       text-align: start;
+       padding-bottom: 3%;
+   }
+   .nav ul li a
+   {
+       color: #242424;
+   }
+    .form-home
+    {
+      width: 95%;
+      padding: 3%;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .form-home input
+    {
+        width:100%;
+        margin-bottom:3%;
+        padding:3%;
+    }
+    .form-home button
+    {
+        width:40%;
+        padding:3%;
+
+    }
+    .contantHome h1
+    {
+       font-size: 2.5rem;
+       font-weight: 500;
+    }
+
+    .featers
+    {
+        width: 90%;
+
+    }
+    .categories
+    {
+        width: 90%;
+    }
+    .item
+    {
+        width:49%;
+    }
+    .itemCalegery
+    {
+        width:100%;
+    }
+
+    .list
+    {
+        flex-wrap: wrap;
+        gap: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-search
+    {
+        width: 90%;
+        padding:5%;
+    }
+    .formSerch
+    {
+        padding: 10% 10% 15%;
+        flex-direction: column;
+    }
+    .formSerch input
+    {
+        margin-bottom: 4%;
+        width:100%;
+        padding:7%;
+    }
+    .formSerch button
+    {
+        width:55%;
+        padding:7%;
+        font-size:1.1rem;
+    }
+    
+}
+@media screen and (min-width: 769px) and (max-width:992px){
+    .btn-header
+    {
+        display: none;
+    }
+    .toggle-menu
+    {
+        display: block;
+        background-color: white;
+        width:6%;
+        color: black;
+        cursor: pointer;
+    }
+    .listHeader
+    {
+       display: flex;
+       flex-direction: column;
+       align-items: start;
+    }
+    .nav.active
+    {
+        display: block;
+    }
+    .imglogo
+    {
+        width:15%;
+    } 
+   .nav
+   {
+       position: absolute;
+       background-color: #ffffff;
+       top:15%; 
+       left: 0%;
+       right: 0%;
+       width: 90%;
+       margin:auto;
+       border: none;
+       display: none;
+   }
+   .nav ul li
+   {
+       border-bottom: #242424 solid 1px;
+       width: 100%;
+       text-align: start;
+       padding-bottom: 3%;
+   }
+   .nav ul li a
+   {
+       color: #242424;
+   }
+    .form-home
+    {
+      width: 95%;
+      padding: 3%;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .form-home input
+    {
+        width:49%;
+        margin-bottom:3%;
+        padding:3%;
+    }
+    .form-home button
+    {
+        width:30%;
+        padding:3%;
+    }
+    .contantHome h1
+    {
+       font-size: 2.5rem;
+       font-weight: 500;
+    }
+
+    .featers
+    {
+        width: 90%;
+    }
+    .categories
+    {
+        width: 90%;
+    }
+
+    .item
+    {
+        width:49%;
+    }
+    .itemCalegery
+    {
+        width:49%;
+    }
+
+    .item .price
+    {
+        padding:1%;
+        width: 55%;
+    }
+
+    .container-search
+    {
+        width: 90%;
+        padding:5%;
+    }
+    .formSerch
+    {
+        padding: 10% 10% 15%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: stretch;
+        gap: 2%;
+    }
+    .formSerch input
+    {
+        width:49%;
+        padding:3% 10%;
+        margin-bottom: 2%;
+    }
+    .formSerch button
+    {
+        width:40%;
+        font-size:1.1rem;
+        padding:3%;
+
+    }
+
+    
+}
+@media screen and (min-width:993px) and (max-width:1200px)
+{
+    .nav
+    {
+        width: 50%;
+    }
+    .featers
+    {
+        width: 90%;
+    }
+    .categories
+    {
+        width: 90%;
+    }
+    .item
+    {
+        width:32%;
+    }
+    .item .price
+    {
+        padding:1% 10%;
+        width: 60%;
+    }
+    
+    .container-search
+    {
+        width: 90%;
+        padding:5%;
+    }
+    .formSerch
+    {
+        padding: 10% 10% 15%;
+    }
+}
+@media screen and (min-width:1200px)
+{
+    .item .price
+    {
+        padding:1%;
+        width: 50%;
+    }
+}
